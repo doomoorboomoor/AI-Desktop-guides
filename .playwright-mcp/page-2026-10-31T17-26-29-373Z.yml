@@ -1,0 +1,19 @@
+- generic [ref=f38e2]:
+  - heading "404" [level=1] [ref=f38e3]
+  - paragraph [ref=f38e4]:
+    - strong [ref=f38e5]: There isn't a GitHub Pages site here.
+  - paragraph [ref=f38e6]:
+    - text: If you're trying to publish one,
+    - link "read the full documentation" [ref=f38e7] [cursor=pointer]:
+      - /url: https://help.github.com/pages/
+    - text: to learn how to set up
+    - strong [ref=f38e8]: GitHub Pages
+    - text: for your repository, organization, or user account.
+  - generic [ref=f38e9]:
+    - link "GitHub Status" [ref=f38e10] [cursor=pointer]:
+      - /url: https://githubstatus.com
+    - text: —
+    - link "@githubstatus" [ref=f38e11] [cursor=pointer]:
+      - /url: https://twitter.com/githubstatus
+  - link [ref=f38e12] [cursor=pointer]:
+    - /url: /

@@ -1,0 +1,260 @@
+- generic [active] [ref=f4e1]:
+  - link "Skip to content" [ref=f4e2] [cursor=pointer]:
+    - /url: "#main-content"
+  - banner [ref=f4e3]:
+    - button "Menu" [ref=f4e4] [cursor=pointer]
+    - link "AI Desktop Reference Library Seven complete application manuals" [ref=f4e5] [cursor=pointer]:
+      - /url: index.html
+      - text: AI Desktop Reference Library
+      - generic [ref=f4e6]: Seven complete application manuals
+    - generic [ref=f4e7]:
+      - generic [ref=f4e8]: Search all seven guides
+      - searchbox "Search all seven guides" [ref=f4e9]
+    - generic [ref=f4e10]:
+      - button "Switch to dark theme" [ref=f4e11] [cursor=pointer]: Dark
+      - button "Print index" [ref=f4e12] [cursor=pointer]
+  - main [ref=f4e14]:
+    - generic [ref=f4e15]:
+      - heading "AI Desktop guides" [level=1] [ref=f4e16]
+      - paragraph [ref=f4e17]: Project instructions, markup conventions, and context management. Read a complete manual, or create a reusable guide or Atlas workspace with PowerToys New+.
+      - generic [ref=f4e18]:
+        - generic [ref=f4e19]: 7 applications
+        - generic [ref=f4e20]: 466 searchable sections
+        - generic [ref=f4e21]: 405 code examples
+        - generic [ref=f4e22]: 14 diagrams
+        - generic [ref=f4e23]: Collection updated 31 October 2026
+    - region [ref=f4e24]:
+      - heading "Choose an application" [level=2] [ref=f4e25]
+      - generic [ref=f4e26]:
+        - article [ref=f4e27]:
+          - heading [level=2] [ref=f4e28]:
+            - link "Claude Desktop" [ref=f4e29] [cursor=pointer]:
+              - /url: claude-desktop.html
+          - paragraph [ref=f4e30]: Projects, Cowork, and explicit context
+          - paragraph [ref=f4e31]:
+            - text: "Root baseline:"
+            - code [ref=f4e32]: PROJECT.md
+          - link "Read the complete guide" [ref=f4e33] [cursor=pointer]:
+            - /url: claude-desktop.html
+        - article [ref=f4e34]:
+          - heading [level=2] [ref=f4e35]:
+            - link "Claude Code" [ref=f4e36] [cursor=pointer]:
+              - /url: claude-code.html
+          - paragraph [ref=f4e37]: Native instructions, imports, and scoped rules
+          - paragraph [ref=f4e38]:
+            - text: "Root baseline:"
+            - code [ref=f4e39]: CLAUDE.md
+          - link "Read the complete guide" [ref=f4e40] [cursor=pointer]:
+            - /url: claude-code.html
+        - article [ref=f4e41]:
+          - heading [level=2] [ref=f4e42]:
+            - link "ChatGPT Desktop" [ref=f4e43] [cursor=pointer]:
+              - /url: chatgpt-desktop.html
+          - paragraph [ref=f4e44]: Chat, Projects, Work, and connected sources
+          - paragraph [ref=f4e45]:
+            - text: "Root baseline:"
+            - code [ref=f4e46]: PROJECT.md
+          - link "Read the complete guide" [ref=f4e47] [cursor=pointer]:
+            - /url: chatgpt-desktop.html
+        - article [ref=f4e48]:
+          - heading [level=2] [ref=f4e49]:
+            - link "Codex Desktop" [ref=f4e50] [cursor=pointer]:
+              - /url: codex-desktop.html
+          - paragraph [ref=f4e51]: Instruction discovery, skills, and checkouts
+          - paragraph [ref=f4e52]:
+            - text: "Root baseline:"
+            - code [ref=f4e53]: AGENTS.md
+          - link "Read the complete guide" [ref=f4e54] [cursor=pointer]:
+            - /url: codex-desktop.html
+        - article [ref=f4e55]:
+          - heading [level=2] [ref=f4e56]:
+            - link "Gemini Desktop" [ref=f4e57] [cursor=pointer]:
+              - /url: gemini-desktop.html
+          - paragraph [ref=f4e58]: Desktop, supplied sources, and context
+          - paragraph [ref=f4e59]:
+            - text: "Root baseline:"
+            - code [ref=f4e60]: PROJECT.md
+          - link "Read the complete guide" [ref=f4e61] [cursor=pointer]:
+            - /url: gemini-desktop.html
+        - article [ref=f4e62]:
+          - heading [level=2] [ref=f4e63]:
+            - link "Hermes Desktop" [ref=f4e64] [cursor=pointer]:
+              - /url: hermes-desktop.html
+          - paragraph [ref=f4e65]: Native rules and progressive context
+          - paragraph [ref=f4e66]:
+            - text: "Root baseline:"
+            - code [ref=f4e67]: .hermes.md
+          - link "Read the complete guide" [ref=f4e68] [cursor=pointer]:
+            - /url: hermes-desktop.html
+        - article [ref=f4e69]:
+          - heading [level=2] [ref=f4e70]:
+            - link "OpenClaw" [ref=f4e71] [cursor=pointer]:
+              - /url: openclaw.html
+          - paragraph [ref=f4e72]: Workspaces, agents, and Gateway boundaries
+          - paragraph [ref=f4e73]:
+            - text: "Root baseline:"
+            - code [ref=f4e74]: AGENTS.md
+          - link "Read the complete guide" [ref=f4e75] [cursor=pointer]:
+            - /url: openclaw.html
+    - region [ref=f4e76]:
+      - heading "New+ template packs" [level=2] [ref=f4e77]
+      - generic [ref=f4e78]:
+        - generic [ref=f4e79]:
+          - heading "All seven apps in one ZIP" [level=3] [ref=f4e80]
+          - paragraph [ref=f4e81]:
+            - text: The combined collection includes
+            - strong [ref=f4e82]: 24 New+ entries
+            - text: ": seven complete guide HTML files, seven editable guide projects, seven Atlas workspaces, the complete reference library, a blank HTML guide, and a generic authoring project. One additional dated authoring project is optional."
+          - paragraph [ref=f4e83]: Choose the complete collection here, or download one app using its separate ZIP card below. The combined ZIP also includes original sources, build tools, licenses, and validation results.
+        - link "Open all templates on Google Drive" [ref=f4e84] [cursor=pointer]:
+          - /url: https://drive.google.com/file/d/16qVAFl1TUB-T9-9idl6Qr5MdfIc6Sy1K/view?usp=sharing
+      - generic [ref=f4e85]:
+        - article [ref=f4e86]:
+          - heading "Claude Desktop pack" [level=3] [ref=f4e87]
+          - paragraph [ref=f4e88]:
+            - text: "Three complete New+ entries: the offline HTML manual, an editable Markdown-first guide project, and an Atlas workspace using"
+            - code [ref=f4e89]: PROJECT.md
+            - text: .
+          - paragraph [ref=f4e90]:
+            - text: "Separate app ZIP:"
+            - code [ref=f4e91]: AI-Desktop-NewPlus-claude-desktop-v3.zip
+            - text: . Extract it, then copy the three entries inside
+            - code [ref=f4e92]: NewPlus-Templates/
+            - text: or use its included installer.
+          - link "Download Claude Desktop pack (ZIP)" [ref=f4e93] [cursor=pointer]:
+            - /url: https://drive.google.com/file/d/1DvPRj2aYxgCDJHRF2v7uRsWt2v8k0IxG/view?usp=drivesdk
+        - article [ref=f4e94]:
+          - heading "Claude Code pack" [level=3] [ref=f4e95]
+          - paragraph [ref=f4e96]:
+            - text: "Three complete New+ entries: the offline HTML manual, an editable Markdown-first guide project, and an Atlas workspace using"
+            - code [ref=f4e97]: CLAUDE.md
+            - text: .
+          - paragraph [ref=f4e98]:
+            - text: "Separate app ZIP:"
+            - code [ref=f4e99]: AI-Desktop-NewPlus-claude-code-v3.zip
+            - text: . Extract it, then copy the three entries inside
+            - code [ref=f4e100]: NewPlus-Templates/
+            - text: or use its included installer.
+          - link "Download Claude Code pack (ZIP)" [ref=f4e101] [cursor=pointer]:
+            - /url: https://drive.google.com/file/d/1gwvXJYj-1Ok4_VrVl90Qu_P8zqOor9aZ/view?usp=drivesdk
+        - article [ref=f4e102]:
+          - heading "ChatGPT Desktop pack" [level=3] [ref=f4e103]
+          - paragraph [ref=f4e104]:
+            - text: "Three complete New+ entries: the offline HTML manual, an editable Markdown-first guide project, and an Atlas workspace using"
+            - code [ref=f4e105]: PROJECT.md
+            - text: .
+          - paragraph [ref=f4e106]:
+            - text: "Separate app ZIP:"
+            - code [ref=f4e107]: AI-Desktop-NewPlus-chatgpt-desktop-v3.zip
+            - text: . Extract it, then copy the three entries inside
+            - code [ref=f4e108]: NewPlus-Templates/
+            - text: or use its included installer.
+          - link "Download ChatGPT Desktop pack (ZIP)" [ref=f4e109] [cursor=pointer]:
+            - /url: https://drive.google.com/file/d/1tAm7J_dG1YOs6insCIOup-duZAAgEZbm/view?usp=drivesdk
+        - article [ref=f4e110]:
+          - heading "Codex Desktop pack" [level=3] [ref=f4e111]
+          - paragraph [ref=f4e112]:
+            - text: "Three complete New+ entries: the offline HTML manual, an editable Markdown-first guide project, and an Atlas workspace using"
+            - code [ref=f4e113]: AGENTS.md
+            - text: .
+          - paragraph [ref=f4e114]:
+            - text: "Separate app ZIP:"
+            - code [ref=f4e115]: AI-Desktop-NewPlus-codex-desktop-v3.zip
+            - text: . Extract it, then copy the three entries inside
+            - code [ref=f4e116]: NewPlus-Templates/
+            - text: or use its included installer.
+          - link "Download Codex Desktop pack (ZIP)" [ref=f4e117] [cursor=pointer]:
+            - /url: https://drive.google.com/file/d/1a-7MCo44_-IR6rAqApL5yZ9TueewMh58/view?usp=drivesdk
+        - article [ref=f4e118]:
+          - heading "Gemini Desktop pack" [level=3] [ref=f4e119]
+          - paragraph [ref=f4e120]:
+            - text: "Three complete New+ entries: the offline HTML manual, an editable Markdown-first guide project, and an Atlas workspace using"
+            - code [ref=f4e121]: PROJECT.md
+            - text: .
+          - paragraph [ref=f4e122]:
+            - text: "Separate app ZIP:"
+            - code [ref=f4e123]: AI-Desktop-NewPlus-gemini-desktop-v3.zip
+            - text: . Extract it, then copy the three entries inside
+            - code [ref=f4e124]: NewPlus-Templates/
+            - text: or use its included installer.
+          - link "Download Gemini Desktop pack (ZIP)" [ref=f4e125] [cursor=pointer]:
+            - /url: https://drive.google.com/file/d/1a_gHxVXi1tk35tmM2RZ3JEtvUk-_KQOg/view?usp=drivesdk
+        - article [ref=f4e126]:
+          - heading "Hermes Desktop pack" [level=3] [ref=f4e127]
+          - paragraph [ref=f4e128]:
+            - text: "Three complete New+ entries: the offline HTML manual, an editable Markdown-first guide project, and an Atlas workspace using"
+            - code [ref=f4e129]: .hermes.md
+            - text: .
+          - paragraph [ref=f4e130]:
+            - text: "Separate app ZIP:"
+            - code [ref=f4e131]: AI-Desktop-NewPlus-hermes-desktop-v3.zip
+            - text: . Extract it, then copy the three entries inside
+            - code [ref=f4e132]: NewPlus-Templates/
+            - text: or use its included installer.
+          - link "Download Hermes Desktop pack (ZIP)" [ref=f4e133] [cursor=pointer]:
+            - /url: https://drive.google.com/file/d/1W32i_qxEnRF7ehsdeVUZPcKek6ru1gTP/view?usp=drivesdk
+        - article [ref=f4e134]:
+          - heading "OpenClaw pack" [level=3] [ref=f4e135]
+          - paragraph [ref=f4e136]:
+            - text: "Three complete New+ entries: the offline HTML manual, an editable Markdown-first guide project, and an Atlas workspace using"
+            - code [ref=f4e137]: AGENTS.md
+            - text: .
+          - paragraph [ref=f4e138]:
+            - text: "Separate app ZIP:"
+            - code [ref=f4e139]: AI-Desktop-NewPlus-openclaw-v3.zip
+            - text: . Extract it, then copy the three entries inside
+            - code [ref=f4e140]: NewPlus-Templates/
+            - text: or use its included installer.
+          - link "Download OpenClaw pack (ZIP)" [ref=f4e141] [cursor=pointer]:
+            - /url: https://drive.google.com/file/d/1DlIoeGNlGfXtVfTtiVorSZlYLZRFKWQx/view?usp=drivesdk
+    - region [ref=f4e142]:
+      - heading "How to use the packs with New+" [level=2] [ref=f4e143]
+      - list [ref=f4e144]:
+        - listitem [ref=f4e145]:
+          - strong [ref=f4e146]: Download and extract the whole ZIP.
+          - text: Use the complete collection link or an app's separate ZIP card, then extract to a normal folder. Do not run scripts inside a ZIP preview.
+        - listitem [ref=f4e147]:
+          - strong [ref=f4e148]: Enable PowerToys New+.
+          - text: Open PowerToys Settings and enable New+. Reading the guides requires neither PowerToys nor Python.
+        - listitem [ref=f4e149]:
+          - strong [ref=f4e150]: Install the templates.
+          - text: Read the extracted README, then run
+          - code [ref=f4e151]: Install-NewPlus-Templates.cmd
+          - text: . It skips existing same-named entries. To refresh matching entries with backups, run
+          - code [ref=f4e152]: .\Install-NewPlus-Templates.ps1 -Overwrite
+          - text: from the extracted folder.
+        - listitem [ref=f4e153]:
+          - strong [ref=f4e154]: Or copy selected entries manually.
+          - text: Choose
+          - strong [ref=f4e155]: New+ → Open templates
+          - text: in File Explorer and copy the desired items from
+          - code [ref=f4e156]: NewPlus-Templates/
+          - text: into that folder. Copy its contents, not the enclosing directory.
+        - listitem [ref=f4e157]:
+          - strong [ref=f4e158]: Create a guide or workspace.
+          - text: Right-click an empty area in your destination folder, choose
+          - strong [ref=f4e159]: New+
+          - text: ", then select a complete guide, an editable source project, an Atlas workspace, or the full library. New+ creates a copy."
+        - listitem [ref=f4e160]:
+          - strong [ref=f4e161]: Edit and rebuild when needed.
+          - text: In an editable guide project, change
+          - code [ref=f4e162]: content/guide.md
+          - text: and
+          - code [ref=f4e163]: guide.config.json
+          - text: ", then run"
+          - code [ref=f4e164]: Build-Guide.cmd
+          - text: . Python 3.9+ is needed only for rebuilding. The full library has
+          - code [ref=f4e165]: Build-Library.cmd
+          - text: for rebuilding every guide and the master from its saved Markdown sources.
+      - paragraph [ref=f4e166]:
+        - code [ref=f4e167]: "#Old/"
+        - text: stores previous revisions;
+        - code [ref=f4e168]: "#Temp/"
+        - text: stores temporary work. They are not active source directories. Optional dated templates require New+'s filename-variable setting; variables change names, not file contents. The installer does not enable settings, sign into AI applications, or connect accounts.
+      - paragraph [ref=f4e169]:
+        - link "Microsoft's New+ documentation" [ref=f4e170] [cursor=pointer]:
+          - /url: https://learn.microsoft.com/en-us/windows/powertoys/newplus
+        - text: ·
+        - link "Local library maintenance guide" [ref=f4e171] [cursor=pointer]:
+          - /url: README.md
+    - paragraph [ref=f4e173]: The original manuals retain their product-verification dates. This collection's HTML/build checks do not establish native app installation or account entitlement. All reading features work offline; Google Drive and external documentation require internet access.
