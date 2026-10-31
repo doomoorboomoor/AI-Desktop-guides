@@ -1,0 +1,296 @@
+{
+  "release": "v3-separate-app-packs",
+  "date": "2026-10-31",
+  "applications": 7,
+  "appPacks": 7,
+  "entriesPerAppPack": 3,
+  "totalNewPlusEntries": 24,
+  "checks": {
+    "static": {
+      "date": "2026-10-31",
+      "applications": [
+        {
+          "application": "Claude Desktop",
+          "sourceBytes": 64402,
+          "headings": 61,
+          "codeBlocks": 46,
+          "diagrams": 2,
+          "sourceHash": "7c92e5d54322ec7d16113f50196416e6ec7d2a0c1b483fc65054e6595978ed96"
+        },
+        {
+          "application": "Claude Code",
+          "sourceBytes": 44268,
+          "headings": 61,
+          "codeBlocks": 48,
+          "diagrams": 2,
+          "sourceHash": "c9ac841f0ae6cf4ab80906b616801f05fc7d4d2bf90c141eb05cb44176ea4f9b"
+        },
+        {
+          "application": "ChatGPT Desktop",
+          "sourceBytes": 64738,
+          "headings": 64,
+          "codeBlocks": 48,
+          "diagrams": 2,
+          "sourceHash": "3f0bbffd0d4f1abb1fe5e8d9f76acaea1ba64e629a577482ff8860ab27234ed9"
+        },
+        {
+          "application": "Codex Desktop",
+          "sourceBytes": 47793,
+          "headings": 61,
+          "codeBlocks": 50,
+          "diagrams": 2,
+          "sourceHash": "1d4eed5e49b97dd6b6daf9a2906408b18ad25ec45da26e56bf858218b50103d3"
+        },
+        {
+          "application": "Gemini Desktop",
+          "sourceBytes": 68567,
+          "headings": 67,
+          "codeBlocks": 48,
+          "diagrams": 2,
+          "sourceHash": "7b728ae64285ff9d4ad700e28aeb21b6b6fe5114e00fec58bf900f4bec52d872"
+        },
+        {
+          "application": "Hermes Desktop",
+          "sourceBytes": 93126,
+          "headings": 72,
+          "codeBlocks": 75,
+          "diagrams": 2,
+          "sourceHash": "18835fb2bc239d88b8c85fd45783f0f2765c3df825c33fa7fd6a8ae2b9a5e1dc"
+        },
+        {
+          "application": "OpenClaw",
+          "sourceBytes": 99924,
+          "headings": 80,
+          "codeBlocks": 90,
+          "diagrams": 2,
+          "sourceHash": "a9212b7ae9acf29ba7d3acfcb01913fbd5595786cb0ffe195bee3522170adb3e"
+        }
+      ],
+      "codeBlocks": 405,
+      "searchEntries": 466,
+      "templateEntries": 24,
+      "templateCards": 7,
+      "errors": []
+    },
+    "browser": {
+      "date": "2026-10-31",
+      "browser": "Chromium headless on Windows; local file:// pages",
+      "master": {
+        "expected": 136,
+        "actual": 136,
+        "cards": 7,
+        "guideCards": 7,
+        "driveLinks": true,
+        "destination": {
+          "page": "claude-desktop.html",
+          "hashFound": true
+        },
+        "mobileNoOverflow": true
+      },
+      "applications": [
+        {
+          "application": "Claude Desktop",
+          "h1": 1,
+          "codeCount": 46,
+          "codeTextPreserved": true,
+          "syntaxTokens": 334,
+          "copyExact": true,
+          "download": {
+            "filename": "01-claude-desktop-cheat-sheet-and-reference.md",
+            "bytes": 64402,
+            "hashMatches": true
+          },
+          "diagramsLoaded": true,
+          "searchHits": 47,
+          "searchHighlights": 75,
+          "dialogOpen": true,
+          "dialogClosed": true,
+          "print": {
+            "dialogClosed": true,
+            "sourceOpen": true,
+            "sourceVisible": true,
+            "codeUnclipped": true
+          },
+          "mobileEscape": true,
+          "headingFocus": true,
+          "noOverflow": true,
+          "themeToggle": true
+        },
+        {
+          "application": "Claude Code",
+          "h1": 1,
+          "codeCount": 48,
+          "codeTextPreserved": true,
+          "syntaxTokens": 238,
+          "copyExact": true,
+          "download": {
+            "filename": "02-claude-code-desktop-cheat-sheet-and-reference.md",
+            "bytes": 44268,
+            "hashMatches": true
+          },
+          "diagramsLoaded": true,
+          "searchHits": 44,
+          "searchHighlights": 67,
+          "dialogOpen": true,
+          "dialogClosed": true,
+          "print": {
+            "dialogClosed": true,
+            "sourceOpen": true,
+            "sourceVisible": true,
+            "codeUnclipped": true
+          },
+          "mobileEscape": true,
+          "headingFocus": true,
+          "noOverflow": true,
+          "themeToggle": true
+        },
+        {
+          "application": "ChatGPT Desktop",
+          "h1": 1,
+          "codeCount": 48,
+          "codeTextPreserved": true,
+          "syntaxTokens": 279,
+          "copyExact": true,
+          "download": {
+            "filename": "03-chatgpt-desktop-cheat-sheet-and-reference.md",
+            "bytes": 64738,
+            "hashMatches": true
+          },
+          "diagramsLoaded": true,
+          "searchHits": 46,
+          "searchHighlights": 68,
+          "dialogOpen": true,
+          "dialogClosed": true,
+          "print": {
+            "dialogClosed": true,
+            "sourceOpen": true,
+            "sourceVisible": true,
+            "codeUnclipped": true
+          },
+          "mobileEscape": true,
+          "headingFocus": true,
+          "noOverflow": true,
+          "themeToggle": true
+        },
+        {
+          "application": "Codex Desktop",
+          "h1": 1,
+          "codeCount": 50,
+          "codeTextPreserved": true,
+          "syntaxTokens": 242,
+          "copyExact": true,
+          "download": {
+            "filename": "04-codex-desktop-cheat-sheet-and-reference.md",
+            "bytes": 47793,
+            "hashMatches": true
+          },
+          "diagramsLoaded": true,
+          "searchHits": 39,
+          "searchHighlights": 55,
+          "dialogOpen": true,
+          "dialogClosed": true,
+          "print": {
+            "dialogClosed": true,
+            "sourceOpen": true,
+            "sourceVisible": true,
+            "codeUnclipped": true
+          },
+          "mobileEscape": true,
+          "headingFocus": true,
+          "noOverflow": true,
+          "themeToggle": true
+        },
+        {
+          "application": "Gemini Desktop",
+          "h1": 1,
+          "codeCount": 48,
+          "codeTextPreserved": true,
+          "syntaxTokens": 328,
+          "copyExact": true,
+          "download": {
+            "filename": "05-gemini-desktop-cheat-sheet-and-reference.md",
+            "bytes": 68567,
+            "hashMatches": true
+          },
+          "diagramsLoaded": true,
+          "searchHits": 49,
+          "searchHighlights": 79,
+          "dialogOpen": true,
+          "dialogClosed": true,
+          "print": {
+            "dialogClosed": true,
+            "sourceOpen": true,
+            "sourceVisible": true,
+            "codeUnclipped": true
+          },
+          "mobileEscape": true,
+          "headingFocus": true,
+          "noOverflow": true,
+          "themeToggle": true
+        },
+        {
+          "application": "Hermes Desktop",
+          "h1": 1,
+          "codeCount": 75,
+          "codeTextPreserved": true,
+          "syntaxTokens": 404,
+          "copyExact": true,
+          "download": {
+            "filename": "08-hermes-desktop-cheat-sheet-and-reference.md",
+            "bytes": 93126,
+            "hashMatches": true
+          },
+          "diagramsLoaded": true,
+          "searchHits": 53,
+          "searchHighlights": 81,
+          "dialogOpen": true,
+          "dialogClosed": true,
+          "print": {
+            "dialogClosed": true,
+            "sourceOpen": true,
+            "sourceVisible": true,
+            "codeUnclipped": true
+          },
+          "mobileEscape": true,
+          "headingFocus": true,
+          "noOverflow": true,
+          "themeToggle": true
+        },
+        {
+          "application": "OpenClaw",
+          "h1": 1,
+          "codeCount": 90,
+          "codeTextPreserved": true,
+          "syntaxTokens": 556,
+          "copyExact": true,
+          "download": {
+            "filename": "09-openclaw-cheat-sheet-and-reference.md",
+            "bytes": 99924,
+            "hashMatches": true
+          },
+          "diagramsLoaded": true,
+          "searchHits": 60,
+          "searchHighlights": 83,
+          "dialogOpen": true,
+          "dialogClosed": true,
+          "print": {
+            "dialogClosed": true,
+            "sourceOpen": true,
+            "sourceVisible": true,
+            "codeUnclipped": true
+          },
+          "mobileEscape": true,
+          "headingFocus": true,
+          "noOverflow": true,
+          "themeToggle": true
+        }
+      ],
+      "errors": []
+    }
+  },
+  "notes": [
+    "Canonical Markdown and all code examples are unchanged.",
+    "The installer was previously verified with native PowerShell 5.1 in isolated folders; no templates were installed into the real New+ folder during this release.",
+    "Drive URLs were read from the actual #Shere folder metadata; sharing was not changed."
+  ]
+}

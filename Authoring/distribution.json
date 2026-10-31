@@ -1,0 +1,38 @@
+{
+  "status": "current",
+  "drive_url": "https://drive.google.com/file/d/16qVAFl1TUB-T9-9idl6Qr5MdfIc6Sy1K/view?usp=sharing",
+  "file_id": "16qVAFl1TUB-T9-9idl6Qr5MdfIc6Sy1K",
+  "verified_date": "2026-10-31",
+  "verification": "Combined and individual ZIPs are maintained through the selected local Google Drive folder. App URLs are grounded in Drive metadata; permission settings are unchanged.",
+  "app_packs": {
+    "claude-desktop": {
+      "filename": "AI-Desktop-NewPlus-claude-desktop-v3.zip",
+      "url": "https://drive.google.com/file/d/1DvPRj2aYxgCDJHRF2v7uRsWt2v8k0IxG/view?usp=drivesdk"
+    },
+    "claude-code": {
+      "filename": "AI-Desktop-NewPlus-claude-code-v3.zip",
+      "url": "https://drive.google.com/file/d/1gwvXJYj-1Ok4_VrVl90Qu_P8zqOor9aZ/view?usp=drivesdk"
+    },
+    "chatgpt-desktop": {
+      "filename": "AI-Desktop-NewPlus-chatgpt-desktop-v3.zip",
+      "url": "https://drive.google.com/file/d/1tAm7J_dG1YOs6insCIOup-duZAAgEZbm/view?usp=drivesdk"
+    },
+    "codex-desktop": {
+      "filename": "AI-Desktop-NewPlus-codex-desktop-v3.zip",
+      "url": "https://drive.google.com/file/d/1a-7MCo44_-IR6rAqApL5yZ9TueewMh58/view?usp=drivesdk"
+    },
+    "gemini-desktop": {
+      "filename": "AI-Desktop-NewPlus-gemini-desktop-v3.zip",
+      "url": "https://drive.google.com/file/d/1a_gHxVXi1tk35tmM2RZ3JEtvUk-_KQOg/view?usp=drivesdk"
+    },
+    "hermes-desktop": {
+      "filename": "AI-Desktop-NewPlus-hermes-desktop-v3.zip",
+      "url": "https://drive.google.com/file/d/1W32i_qxEnRF7ehsdeVUZPcKek6ru1gTP/view?usp=drivesdk"
+    },
+    "openclaw": {
+      "filename": "AI-Desktop-NewPlus-openclaw-v3.zip",
+      "url": "https://drive.google.com/file/d/1DlIoeGNlGfXtVfTtiVorSZlYLZRFKWQx/view?usp=drivesdk"
+    }
+  },
+  "library_zip_url": "https://drive.google.com/file/d/139ttNCiShKyrQvixPN54jchi1VyPfN_z/view?usp=drivesdk"
+}

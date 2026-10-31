@@ -1,0 +1,15 @@
+{
+  "title": "Claude Code: Cheat Sheet and Reference Guide",
+  "subtitle": "Claude Code complete reference",
+  "description": "Native instructions, imports, and scoped rules",
+  "author": "AI Desktop Reference Library",
+  "revision": "Complete collection v3 · 2026-10-31",
+  "verified_date": "2026-10-31",
+  "root_baseline": "CLAUDE.md",
+  "language": "en",
+  "source_filename": "02-claude-code-desktop-cheat-sheet-and-reference.md",
+  "output_file": "dist/claude-code.html",
+  "pack_url": "https://drive.google.com/file/d/1gwvXJYj-1Ok4_VrVl90Qu_P8zqOor9aZ/view?usp=drivesdk",
+  "pack_status": "current",
+  "pack_label": "Download Claude Code New+ template pack (ZIP)"
+}

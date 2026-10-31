@@ -1,0 +1,1 @@
+Historical uploads are preserved unchanged. Their old navigation may require files outside this provenance folder. Use the complete improved Library/ for working links. Codex and Claude Code are newly authored additions, not historical uploads.

@@ -1,0 +1,77 @@
+{
+  "release": "v3-separate-app-packs",
+  "artifacts": [
+    {
+      "filename": "AI-Desktop-NewPlus-claude-desktop-v3.zip",
+      "bytes": 597646,
+      "sha256": "6266c3b69097efdcb8c0af119d8512bc4c70025f42d326fefccdc384aae68517",
+      "md5": "8bf0c4cedf880074fcf1bb8d4bc273d5",
+      "entries": 72,
+      "verified": true
+    },
+    {
+      "filename": "AI-Desktop-NewPlus-claude-code-v3.zip",
+      "bytes": 496739,
+      "sha256": "3f9e3e980001f6a1a47955aeba9813c15cf733adf497e2bb1c96ac1329205788",
+      "md5": "0a8e27067507c8f9a763e49ad18ecf76",
+      "entries": 75,
+      "verified": true
+    },
+    {
+      "filename": "AI-Desktop-NewPlus-chatgpt-desktop-v3.zip",
+      "bytes": 596168,
+      "sha256": "6897377a10c753a1a4d8e2f06559d05a36e7d0eb8b1ed8d357dfff3e3820945b",
+      "md5": "7293aeac591e3c39180f4099b69859ea",
+      "entries": 72,
+      "verified": true
+    },
+    {
+      "filename": "AI-Desktop-NewPlus-codex-desktop-v3.zip",
+      "bytes": 507524,
+      "sha256": "d22c4c42fd03b70f6c0385606efa6877cef3eae53e563b6d73b8043bbaa9610d",
+      "md5": "700affa9107d049740bf65cb8a84cc9e",
+      "entries": 75,
+      "verified": true
+    },
+    {
+      "filename": "AI-Desktop-NewPlus-gemini-desktop-v3.zip",
+      "bytes": 608254,
+      "sha256": "3ca9c3c7934380dd23de09dc1f58392f3503cdf0f84bbf5aee69ee426bfc5126",
+      "md5": "86c29b5b3a7ee593d79fca633d39c465",
+      "entries": 72,
+      "verified": true
+    },
+    {
+      "filename": "AI-Desktop-NewPlus-hermes-desktop-v3.zip",
+      "bytes": 684494,
+      "sha256": "4058b3b28a3a68b8bb4e1fe8777a73a9b27999ccd0a1d09affe433cd97c08649",
+      "md5": "f4c9519d86bd5da576d5f77985be9815",
+      "entries": 72,
+      "verified": true
+    },
+    {
+      "filename": "AI-Desktop-NewPlus-openclaw-v3.zip",
+      "bytes": 707968,
+      "sha256": "3dafb92ccc92376f978eeb6bd5c37c1dbfdf9e3fd9a95becc9607583e007a153",
+      "md5": "f9d3c543e313aab9218a1faec16a9493",
+      "entries": 75,
+      "verified": true
+    },
+    {
+      "filename": "AI-Desktop-NewPlus-Templates-All-Seven-v3.zip",
+      "bytes": 8155257,
+      "sha256": "964e8a92c2388f47b8bcdc9c97bcfc47a2241c709d2ed2ff860baa68477d7c0d",
+      "md5": "5a84e0de3c925562052190f3f5a6c835",
+      "entries": 810,
+      "verified": true
+    },
+    {
+      "filename": "AI-Desktop-Reference-Guides.zip",
+      "bytes": 1470336,
+      "sha256": "6af5726e686db6cdb3940fa2a3e40b5794db57f20b78b0eb9f5e76804db2ddd2",
+      "md5": "a38a61d6a0c1f6357d85e39d8e46e6a6",
+      "entries": 103,
+      "verified": true
+    }
+  ]
+}

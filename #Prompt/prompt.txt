@@ -1,0 +1,32 @@
+### Objective
+
+Create a series of comprehensive, instructional-grade **Cheat Sheets and Reference Guides for AI Desktop Applications and their Markup Conventions**. Each guide must establish **root-directory Markdown (`.md`) files** as the foundational baseline and Single Source of Truth (SSOT) for progressive context expansion, while maintaining a strict, unified document structure across all outputs.
+
+---
+
+### Core Scope & Content Requirements
+
+1. **Foundational Baseline Concepts:** How root-directory Markdown files serve as the canonical project baseline, persistent instruction set, and primary structural anchor for the workspace.
+2. **Context Expansion & Markup Conventions:** How to systematically expand upon the root baseline across complex tasks and directory hierarchies using each application's native markup syntax, file conventions, and referencing mechanisms.
+
+---
+
+### Content Specifications
+
+1. **Exhaustive Examples:** Provide concrete, copy-pasteable examples for every concept, markup rule, configuration file, template, and workflow.
+2. **Visualizations:** Illustrate architectures and workflows using ASCII directory trees, Mermaid diagrams, and structured reference tables.
+3. **Accessible Formatting:** Use a clear, scannable layout with consistent headings, syntax-highlighted code blocks, and quick-reference checklists.
+
+---
+
+### Output Architecture & Execution Protocol
+
+* **Standalone, Self-Contained Files:** Output strictly **one complete Markdown file per AI Desktop Application**. Every file must function as an independent manual following an identical section structure:
+* **Shared Content (Repeated in Full):** Universal principles, foundational workflows, and general Markdown best practices duplicated in full within every file.
+* **Application-Specific Content (Unified Structure):** Platform-unique file conventions, markup rules, capabilities, and workflows organized under the same standardized sections across all guides.
+
+
+* **Turn-by-Turn Gated Execution:**
+1. **Master Input:** Following the planning phase, I will provide a single source Markdown file containing the baseline material and the ordered list of target applications, accompanied by the command to begin.
+2. **Single-App Generation:** Starting with the **first application** on the list, output the complete cheat sheet and guide for **strictly one application per reply**. Do not combine applications or generate subsequent files preemptively.
+3. **Gated Progression:** Wait for my explicit command to proceed before generating the next application in the sequence.

@@ -1,0 +1,1 @@
+Mistune 3.2.1, BSD-3-Clause. Local vendored Python Markdown renderer, used at build-time only.

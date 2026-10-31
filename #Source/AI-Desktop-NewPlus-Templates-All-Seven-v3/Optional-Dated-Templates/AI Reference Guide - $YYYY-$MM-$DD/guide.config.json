@@ -1,0 +1,14 @@
+{
+  "title": "My Desktop Application Reference Guide",
+  "subtitle": "Blank authoring starter",
+  "description": "A 12-section scaffold for a new application; fill and verify its content before publishing.",
+  "author": "Project maintainer",
+  "revision": "draft-r1",
+  "verified_date": "Not yet verified",
+  "root_baseline": "PROJECT.md",
+  "language": "en",
+  "source_filename": "guide.md",
+  "output_file": "dist/AI-Reference-Guide.html",
+  "pack_url": "https://drive.google.com/file/d/1O7XtAEqdw9XkZerEcafWqE1GDW_oez5t/view?usp=sharing",
+  "pack_status": "pending"
+}

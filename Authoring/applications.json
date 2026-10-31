@@ -1,0 +1,51 @@
+[
+  [
+    "claude-desktop",
+    "Claude Desktop",
+    "PROJECT.md",
+    "01-claude-desktop-cheat-sheet-and-reference.md",
+    "Projects, Cowork, and explicit context"
+  ],
+  [
+    "claude-code",
+    "Claude Code",
+    "CLAUDE.md",
+    "02-claude-code-desktop-cheat-sheet-and-reference.md",
+    "Native instructions, imports, and scoped rules"
+  ],
+  [
+    "chatgpt-desktop",
+    "ChatGPT Desktop",
+    "PROJECT.md",
+    "03-chatgpt-desktop-cheat-sheet-and-reference.md",
+    "Chat, Projects, Work, and connected sources"
+  ],
+  [
+    "codex-desktop",
+    "Codex Desktop",
+    "AGENTS.md",
+    "04-codex-desktop-cheat-sheet-and-reference.md",
+    "Instruction discovery, skills, and checkouts"
+  ],
+  [
+    "gemini-desktop",
+    "Gemini Desktop",
+    "PROJECT.md",
+    "05-gemini-desktop-cheat-sheet-and-reference.md",
+    "Desktop, supplied sources, and context"
+  ],
+  [
+    "hermes-desktop",
+    "Hermes Desktop",
+    ".hermes.md",
+    "08-hermes-desktop-cheat-sheet-and-reference.md",
+    "Native rules and progressive context"
+  ],
+  [
+    "openclaw",
+    "OpenClaw",
+    "AGENTS.md",
+    "09-openclaw-cheat-sheet-and-reference.md",
+    "Workspaces, agents, and Gateway boundaries"
+  ]
+]

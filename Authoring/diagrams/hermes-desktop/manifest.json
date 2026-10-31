@@ -1,0 +1,10 @@
+{
+  "diagram-01.svg": {
+    "source_sha256": "ea6aeed670630dfe4b7064910dcfe8b0b405c62db63e973343ac003583da8424",
+    "svg_sha256": "43c62ef0790e5d053e21cf319d2b3aeedc96d08fcd05ddaf0b1a9ba3ce9de23a"
+  },
+  "diagram-02.svg": {
+    "source_sha256": "83d296e61bf288311dfbf9e65ab7485a98c494e54a297ad3a47a1695b34ef305",
+    "svg_sha256": "3aaee9348d905f0b1e2798638b6c19f517b001def5ce0288de4510a0166ef349"
+  }
+}
