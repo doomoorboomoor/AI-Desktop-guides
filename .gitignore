@@ -2,3 +2,4 @@
 \#Temp/
 __pycache__/
 *.pyc
+_site/

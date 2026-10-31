@@ -1,5 +1,54 @@
 # Complete AI Desktop Reference Library — v3
 
+## Publish on GitHub Pages
+
+Run `python Build-Pages.py` from this folder. It rebuilds the seven manuals
+from canonical Markdown, validates local links and every search destination,
+and writes the website to `_site/`. Python 3.9+ is required; dependencies
+are bundled. No npm installation is needed.
+
+Preview with `python -m http.server 8000 --directory _site`, then open
+<http://localhost:8000>. Stop the preview with Ctrl+C.
+
+Commit and push the source changes to `main`. In the GitHub repository,
+open **Settings → Pages → Build and deployment → Source → GitHub Actions**.
+The included `.github/workflows/pages.yml` builds and validates pull requests;
+pushes to `main` also publish the validated `_site` artifact. The expected URL is
+<https://doomoorboomoor.github.io/AI-Desktop-guides/> once deployment succeeds.
+You can also run the workflow manually from the Actions tab.
+
+The publishing layout is:
+
+```text
+#Source/                 Canonical guide Markdown and historical inputs
+Authoring/               Metadata, diagram previews, and bundled build engine
+Build-Library.py         Standalone offline HTML build
+Build-Pages.py           Optimized website build and link validation
+.github/workflows/       GitHub Pages build and deployment
+_site/                   Generated website only (ignored by Git)
+  index.html             Library navigation and full-text search
+  <app-slug>.html         Seven complete manuals with lowercase URLs
+  assets/                Shared, content-hashed CSS and JavaScript
+  404.html               Missing-page recovery
+```
+
+Only generated pages and their shared assets are published. Scratch folders,
+archives, authoring projects, and original uploads are excluded from the
+deployment artifact. Guide text, source downloads, diagrams, template download
+links, and the existing mobile and print layouts are retained. The published
+pages share cacheable assets; the root HTML exports remain self-contained.
+Keep the entire `_site` folder together when copying the website.
+
+Links are relative, so navigation and assets work beneath the repository's
+GitHub Pages path. The 404 recovery URL and repository link in Build-Pages.py
+are specific to this repository; update them if you fork it. Historical
+`claude-code-Desktop.html` links redirect with their section fragments.
+Use the canonical lowercase `chatgpt-desktop.html` when sharing links.
+
+The validation report is saved to `#Temp/pages-validation.json`. Publishing
+does not update the separate Google Drive ZIPs. For workflow details, see
+[GitHub's custom Pages workflow documentation](https://docs.github.com/en/pages/getting-started-with-github-pages/using-custom-workflows-with-github-pages).
+
 Seven complete manuals: Claude Desktop, Claude Code, ChatGPT Desktop,
 Codex Desktop, Gemini Desktop, Hermes Desktop, and OpenClaw.
 
