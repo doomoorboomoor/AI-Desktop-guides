@@ -2,6 +2,10 @@
 
 ## Publish on GitHub Pages
 
+For crawler metadata, sitemap submission, and Google Search Console verification,
+see [Search engine setup](SEARCH-ENGINE-SETUP.md). SEO settings live in
+`Authoring/site.json`; indexing is separate from publishing.
+
 Run `python Build-Pages.py` from this folder. It rebuilds the seven manuals
 from canonical Markdown, validates local links and every search destination,
 and writes the website to `_site/`. Python 3.9+ is required; dependencies
