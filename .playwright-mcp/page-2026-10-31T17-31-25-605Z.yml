@@ -1,0 +1,600 @@
+- generic [ref=f40e2]:
+  - generic [ref=f40e3]:
+    - link "Skip to content" [ref=f40e4] [cursor=pointer]:
+      - /url: "#start-of-content"
+    - banner [ref=f40e9]:
+      - heading "Navigation Menu" [level=2] [ref=f40e10]
+      - generic [ref=f40e11]:
+        - link "Homepage" [ref=f40e14] [cursor=pointer]:
+          - /url: /
+        - generic [ref=f40e17]:
+          - navigation "Global" [ref=f40e18]:
+            - list [ref=f40e19]:
+              - listitem [ref=f40e20]:
+                - button "Products" [ref=f40e22] [cursor=pointer]
+              - listitem [ref=f40e25]:
+                - button "Developers" [ref=f40e27] [cursor=pointer]
+              - listitem [ref=f40e30]:
+                - button "Businesses" [ref=f40e32] [cursor=pointer]
+              - listitem [ref=f40e35]:
+                - button "Resources" [ref=f40e37] [cursor=pointer]
+              - listitem [ref=f40e40]:
+                - link "Pricing" [ref=f40e41] [cursor=pointer]:
+                  - /url: https://github.com/pricing
+          - generic [ref=f40e42]:
+            - button "Search or jump to, type / to search" [ref=f40e44] [cursor=pointer]:
+              - generic [ref=f40e47]:
+                - generic [ref=f40e48]: Search
+                - generic [aria-hidden] [ref=f40e49]: /
+            - generic [ref=f40e50]:
+              - link "Sign in" [ref=f40e52] [cursor=pointer]:
+                - /url: /login?return_to=https%3A%2F%2Fgithub.com%2Fdoomoorboomoor%2FAI-Desktop-guides
+              - link "Sign up" [ref=f40e55] [cursor=pointer]:
+                - /url: /signup?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2F%3Cuser-name%3E%2F%3Crepo-name%3E&source=header-repo&source_repo=doomoorboomoor%2FAI-Desktop-guides
+              - button "Appearance settings" [ref=f40e58] [cursor=pointer]
+  - main [ref=f40e65]:
+    - generic "Global navigation menu" [ref=f40e68]:
+      - navigation "Breadcrumbs" [ref=f40e71]:
+        - list [ref=f40e72]:
+          - listitem [ref=f40e73]:
+            - link "doomoorboomoor" [ref=f40e74] [cursor=pointer]:
+              - /url: /doomoorboomoor
+          - listitem [ref=f40e76]:
+            - link "AI-Desktop-guides" [ref=f40e77] [cursor=pointer]:
+              - /url: /doomoorboomoor/AI-Desktop-guides
+      - heading "Repository navigation" [level=2] [ref=f40e80]
+      - navigation "Repository" [ref=f40e81]:
+        - list [ref=f40e82]:
+          - listitem [ref=f40e83]:
+            - link "Code" [ref=f40e84] [cursor=pointer]:
+              - /url: /doomoorboomoor/AI-Desktop-guides
+          - listitem [ref=f40e89]:
+            - link "Issues" [ref=f40e90] [cursor=pointer]:
+              - /url: /doomoorboomoor/AI-Desktop-guides/issues
+          - listitem [ref=f40e96]:
+            - link "Pull requests" [ref=f40e97] [cursor=pointer]:
+              - /url: /doomoorboomoor/AI-Desktop-guides/pulls
+          - listitem [ref=f40e102]:
+            - link "Actions" [ref=f40e103] [cursor=pointer]:
+              - /url: /doomoorboomoor/AI-Desktop-guides/actions
+          - listitem [ref=f40e108]:
+            - link "Projects" [ref=f40e109] [cursor=pointer]:
+              - /url: /doomoorboomoor/AI-Desktop-guides/projects
+          - listitem [ref=f40e114]:
+            - link "Security and quality" [ref=f40e115] [cursor=pointer]:
+              - /url: /doomoorboomoor/AI-Desktop-guides/security
+          - listitem [ref=f40e120]:
+            - link "Insights" [ref=f40e121] [cursor=pointer]:
+              - /url: /doomoorboomoor/AI-Desktop-guides/pulse
+    - generic [ref=f40e138]:
+      - generic [ref=f40e142]:
+        - generic [ref=f40e145]:
+          - img "doomoorboomoor" [ref=f40e146]
+          - generic "AI-Desktop-guides" [ref=f40e147]:
+            - strong [ref=f40e148]:
+              - link "AI-Desktop-guides" [ref=f40e149] [cursor=pointer]:
+                - /url: /doomoorboomoor/AI-Desktop-guides
+          - generic [ref=f40e150]: Public
+        - list [ref=f40e152]:
+          - listitem [ref=f40e153]:
+            - link "You must be signed in to change notification settings" [ref=f40e154] [cursor=pointer]:
+              - /url: /login?return_to=%2Fdoomoorboomoor%2FAI-Desktop-guides
+              - generic [ref=f40e155]: Notifications
+          - listitem [ref=f40e157]:
+            - link "You must be signed in to fork a repository" [ref=f40e158] [cursor=pointer]:
+              - /url: /login?return_to=%2Fdoomoorboomoor%2FAI-Desktop-guides
+              - generic [ref=f40e160]:
+                - text: Fork
+                - generic [aria-hidden] [ref=f40e161]: "0"
+                - generic [ref=f40e162]: (0)
+          - listitem [ref=f40e163]:
+            - link "Star (0)" [ref=f40e164] [cursor=pointer]:
+              - /url: /login?return_to=%2Fdoomoorboomoor%2FAI-Desktop-guides
+              - generic [ref=f40e166]:
+                - text: Star
+                - generic [aria-hidden] [ref=f40e167]: "0"
+                - generic [ref=f40e168]: (0)
+      - generic [ref=f40e169]:
+        - generic [ref=f40e172]:
+          - generic [ref=f40e173]:
+            - generic [ref=f40e174]:
+              - button "main branch" [ref=f40e176] [cursor=pointer]:
+                - generic [ref=f40e177]: main
+              - generic [ref=f40e181]:
+                - link "Branches" [ref=f40e182] [cursor=pointer]:
+                  - /url: /doomoorboomoor/AI-Desktop-guides/branches
+                - link "Tags" [ref=f40e185] [cursor=pointer]:
+                  - /url: /doomoorboomoor/AI-Desktop-guides/tags
+            - generic [ref=f40e188]:
+              - combobox "Go to file" [ref=f40e196]
+              - button "Code" [ref=f40e197] [cursor=pointer]
+          - generic [ref=f40e200]:
+            - generic [ref=f40e201]:
+              - generic [ref=f40e203]:
+                - heading "Latest commit" [level=2] [ref=f40e204]
+                - generic [ref=f40e207]:
+                  - heading "History" [level=2] [ref=f40e208]
+                  - link "7 Commits" [ref=f40e209] [cursor=pointer]:
+                    - /url: /doomoorboomoor/AI-Desktop-guides/commits/main/
+              - heading "Folders and files" [level=2] [ref=f40e212]
+              - table "Folders and files" [ref=f40e214]:
+                - rowgroup:
+                  - row "Name Last commit message Last commit date":
+                    - columnheader "Name"
+                    - columnheader "Last commit message"
+                    - columnheader "Last commit date"
+                - rowgroup [ref=f40e215]:
+                  - row "#Prompt, (Directory)" [ref=f40e216]:
+                    - cell [ref=f40e217]:
+                      - link "#Prompt, (Directory)" [ref=f40e224] [cursor=pointer]:
+                        - /url: /doomoorboomoor/AI-Desktop-guides/tree/main/%23Prompt
+                        - text: "#Prompt"
+                    - cell [ref=f40e225]
+                    - cell [ref=f40e227]
+                  - row "#Source, (Directory)" [ref=f40e230]:
+                    - cell [ref=f40e231]:
+                      - link "#Source, (Directory)" [ref=f40e238] [cursor=pointer]:
+                        - /url: /doomoorboomoor/AI-Desktop-guides/tree/main/%23Source
+                        - text: "#Source"
+                    - cell [ref=f40e239]
+                    - cell [ref=f40e241]
+                  - row ".github/workflows, (Directory)" [ref=f40e244]:
+                    - cell [ref=f40e245]:
+                      - link ".github/workflows, (Directory)" [ref=f40e252] [cursor=pointer]:
+                        - /url: /doomoorboomoor/AI-Desktop-guides/tree/main/.github/workflows
+                        - text: .github/workflows
+                    - cell [ref=f40e253]
+                    - cell [ref=f40e255]
+                  - row ".playwright-mcp, (Directory)" [ref=f40e258]:
+                    - cell [ref=f40e259]:
+                      - link ".playwright-mcp, (Directory)" [ref=f40e266] [cursor=pointer]:
+                        - /url: /doomoorboomoor/AI-Desktop-guides/tree/main/.playwright-mcp
+                        - text: .playwright-mcp
+                    - cell [ref=f40e267]
+                    - cell [ref=f40e269]
+                  - row "Authoring, (Directory)" [ref=f40e272]:
+                    - cell [ref=f40e273]:
+                      - link "Authoring, (Directory)" [ref=f40e280] [cursor=pointer]:
+                        - /url: /doomoorboomoor/AI-Desktop-guides/tree/main/Authoring
+                        - text: Authoring
+                    - cell [ref=f40e281]
+                    - cell [ref=f40e283]
+                  - row ".gitattributes, (File)" [ref=f40e286]:
+                    - cell [ref=f40e287]:
+                      - link ".gitattributes, (File)" [ref=f40e294] [cursor=pointer]:
+                        - /url: /doomoorboomoor/AI-Desktop-guides/blob/main/.gitattributes
+                        - text: .gitattributes
+                    - cell [ref=f40e295]
+                    - cell [ref=f40e297]
+                  - row ".gitignore, (File)" [ref=f40e300]:
+                    - cell [ref=f40e301]:
+                      - link ".gitignore, (File)" [ref=f40e308] [cursor=pointer]:
+                        - /url: /doomoorboomoor/AI-Desktop-guides/blob/main/.gitignore
+                        - text: .gitignore
+                    - cell [ref=f40e309]
+                    - cell [ref=f40e311]
+                  - row "Build-Library.cmd, (File)" [ref=f40e314]:
+                    - cell [ref=f40e315]:
+                      - link "Build-Library.cmd, (File)" [ref=f40e322] [cursor=pointer]:
+                        - /url: /doomoorboomoor/AI-Desktop-guides/blob/main/Build-Library.cmd
+                        - text: Build-Library.cmd
+                    - cell [ref=f40e323]
+                    - cell [ref=f40e325]
+                  - row "Build-Library.ps1, (File)" [ref=f40e328]:
+                    - cell [ref=f40e329]:
+                      - link "Build-Library.ps1, (File)" [ref=f40e336] [cursor=pointer]:
+                        - /url: /doomoorboomoor/AI-Desktop-guides/blob/main/Build-Library.ps1
+                        - text: Build-Library.ps1
+                    - cell [ref=f40e337]
+                    - cell [ref=f40e339]
+                  - row "Build-Library.py, (File)" [ref=f40e342]:
+                    - cell [ref=f40e343]:
+                      - link "Build-Library.py, (File)" [ref=f40e350] [cursor=pointer]:
+                        - /url: /doomoorboomoor/AI-Desktop-guides/blob/main/Build-Library.py
+                        - text: Build-Library.py
+                    - cell [ref=f40e351]
+                    - cell [ref=f40e353]
+                  - row "Build-Pages.py, (File)" [ref=f40e356]:
+                    - cell [ref=f40e357]:
+                      - link "Build-Pages.py, (File)" [ref=f40e364] [cursor=pointer]:
+                        - /url: /doomoorboomoor/AI-Desktop-guides/blob/main/Build-Pages.py
+                        - text: Build-Pages.py
+                    - cell [ref=f40e365]
+                    - cell [ref=f40e367]
+                  - row "ChatGPT-Desktop.html, (File)" [ref=f40e370]:
+                    - cell [ref=f40e371]:
+                      - link "ChatGPT-Desktop.html, (File)" [ref=f40e378] [cursor=pointer]:
+                        - /url: /doomoorboomoor/AI-Desktop-guides/blob/main/ChatGPT-Desktop.html
+                        - text: ChatGPT-Desktop.html
+                    - cell [ref=f40e379]
+                    - cell [ref=f40e381]
+                  - row "DOWNLOADS.md, (File)" [ref=f40e384]:
+                    - cell [ref=f40e385]:
+                      - link "DOWNLOADS.md, (File)" [ref=f40e392] [cursor=pointer]:
+                        - /url: /doomoorboomoor/AI-Desktop-guides/blob/main/DOWNLOADS.md
+                        - text: DOWNLOADS.md
+                    - cell [ref=f40e393]
+                    - cell [ref=f40e395]
+                  - row "DRIVE-UPDATE.md, (File)" [ref=f40e398]:
+                    - cell [ref=f40e399]:
+                      - link "DRIVE-UPDATE.md, (File)" [ref=f40e406] [cursor=pointer]:
+                        - /url: /doomoorboomoor/AI-Desktop-guides/blob/main/DRIVE-UPDATE.md
+                        - text: DRIVE-UPDATE.md
+                    - cell [ref=f40e407]
+                    - cell [ref=f40e409]
+                  - row "PROJECT.md, (File)" [ref=f40e412]:
+                    - cell [ref=f40e413]:
+                      - link "PROJECT.md, (File)" [ref=f40e420] [cursor=pointer]:
+                        - /url: /doomoorboomoor/AI-Desktop-guides/blob/main/PROJECT.md
+                        - text: PROJECT.md
+                    - cell [ref=f40e421]
+                    - cell [ref=f40e423]
+                  - row "README.md, (File)" [ref=f40e426]:
+                    - cell [ref=f40e427]:
+                      - link "README.md, (File)" [ref=f40e434] [cursor=pointer]:
+                        - /url: /doomoorboomoor/AI-Desktop-guides/blob/main/README.md
+                        - text: README.md
+                    - cell [ref=f40e435]
+                    - cell [ref=f40e437]
+                  - row "RELEASE.json, (File)" [ref=f40e440]:
+                    - cell [ref=f40e441]:
+                      - link "RELEASE.json, (File)" [ref=f40e448] [cursor=pointer]:
+                        - /url: /doomoorboomoor/AI-Desktop-guides/blob/main/RELEASE.json
+                        - text: RELEASE.json
+                    - cell [ref=f40e449]
+                    - cell [ref=f40e451]
+                  - row "SEARCH-ENGINE-SETUP.md, (File)" [ref=f40e454]:
+                    - cell [ref=f40e455]:
+                      - link "SEARCH-ENGINE-SETUP.md, (File)" [ref=f40e462] [cursor=pointer]:
+                        - /url: /doomoorboomoor/AI-Desktop-guides/blob/main/SEARCH-ENGINE-SETUP.md
+                        - text: SEARCH-ENGINE-SETUP.md
+                    - cell [ref=f40e463]
+                    - cell [ref=f40e465]
+                  - row "VALIDATION-REPORT.json, (File)" [ref=f40e468]:
+                    - cell [ref=f40e469]:
+                      - link "VALIDATION-REPORT.json, (File)" [ref=f40e476] [cursor=pointer]:
+                        - /url: /doomoorboomoor/AI-Desktop-guides/blob/main/VALIDATION-REPORT.json
+                        - text: VALIDATION-REPORT.json
+                    - cell [ref=f40e477]
+                    - cell [ref=f40e479]
+                  - row "claude-code-Desktop.html, (File)" [ref=f40e482]:
+                    - cell [ref=f40e483]:
+                      - link "claude-code-Desktop.html, (File)" [ref=f40e490] [cursor=pointer]:
+                        - /url: /doomoorboomoor/AI-Desktop-guides/blob/main/claude-code-Desktop.html
+                        - text: claude-code-Desktop.html
+                    - cell [ref=f40e491]
+                    - cell [ref=f40e493]
+                  - row "claude-code.html, (File)" [ref=f40e496]:
+                    - cell [ref=f40e497]:
+                      - link "claude-code.html, (File)" [ref=f40e504] [cursor=pointer]:
+                        - /url: /doomoorboomoor/AI-Desktop-guides/blob/main/claude-code.html
+                        - text: claude-code.html
+                    - cell [ref=f40e505]
+                    - cell [ref=f40e507]
+                  - row "claude-desktop.html, (File)" [ref=f40e510]:
+                    - cell [ref=f40e511]:
+                      - link "claude-desktop.html, (File)" [ref=f40e518] [cursor=pointer]:
+                        - /url: /doomoorboomoor/AI-Desktop-guides/blob/main/claude-desktop.html
+                        - text: claude-desktop.html
+                    - cell [ref=f40e519]
+                    - cell [ref=f40e521]
+                  - row "codex-desktop.html, (File)" [ref=f40e524]:
+                    - cell [ref=f40e525]:
+                      - link "codex-desktop.html, (File)" [ref=f40e532] [cursor=pointer]:
+                        - /url: /doomoorboomoor/AI-Desktop-guides/blob/main/codex-desktop.html
+                        - text: codex-desktop.html
+                    - cell [ref=f40e533]
+                    - cell [ref=f40e535]
+                  - row "gemini-desktop.html, (File)" [ref=f40e538]:
+                    - cell [ref=f40e539]:
+                      - link "gemini-desktop.html, (File)" [ref=f40e546] [cursor=pointer]:
+                        - /url: /doomoorboomoor/AI-Desktop-guides/blob/main/gemini-desktop.html
+                        - text: gemini-desktop.html
+                    - cell [ref=f40e547]
+                    - cell [ref=f40e549]
+                  - row "hermes-desktop.html, (File)" [ref=f40e552]:
+                    - cell [ref=f40e553]:
+                      - link "hermes-desktop.html, (File)" [ref=f40e560] [cursor=pointer]:
+                        - /url: /doomoorboomoor/AI-Desktop-guides/blob/main/hermes-desktop.html
+                        - text: hermes-desktop.html
+                    - cell [ref=f40e561]
+                    - cell [ref=f40e563]
+                  - row "index.html, (File)" [ref=f40e566]:
+                    - cell [ref=f40e567]:
+                      - link "index.html, (File)" [ref=f40e574] [cursor=pointer]:
+                        - /url: /doomoorboomoor/AI-Desktop-guides/blob/main/index.html
+                        - text: index.html
+                    - cell [ref=f40e575]
+                    - cell [ref=f40e577]
+                  - row "openclaw.html, (File)" [ref=f40e580]:
+                    - cell [ref=f40e581]:
+                      - link "openclaw.html, (File)" [ref=f40e588] [cursor=pointer]:
+                        - /url: /doomoorboomoor/AI-Desktop-guides/blob/main/openclaw.html
+                        - text: openclaw.html
+                    - cell [ref=f40e589]
+                    - cell [ref=f40e591]
+            - generic [ref=f40e595]:
+              - generic [ref=f40e596]:
+                - heading "Repository files navigation" [level=2] [ref=f40e597]
+                - navigation "Repository files" [ref=f40e598]:
+                  - list [ref=f40e599]:
+                    - listitem [ref=f40e600]:
+                      - link "README" [ref=f40e601] [cursor=pointer]:
+                        - /url: "#"
+                - button "Outline" [ref=f40e606] [cursor=pointer]
+              - article [ref=f40e610]:
+                - generic [ref=f40e611]:
+                  - heading "AI Desktop Guides — Reference Library" [level=1] [ref=f40e612]
+                  - 'link "Permalink: AI Desktop Guides — Reference Library" [ref=f40e613] [cursor=pointer]':
+                    - /url: "#ai-desktop-guides--reference-library"
+                - paragraph [ref=f40e616]:
+                  - text: Complete reference guides for
+                  - strong [ref=f40e617]: Claude Desktop, Claude Code, ChatGPT Desktop, Codex Desktop, Gemini Desktop, Hermes Desktop, and OpenClaw
+                  - text: . Learn AI project instructions, Markdown formatting, context management, skills, and reusable PowerToys New+ templates.
+                - paragraph [ref=f40e618]:
+                  - strong [ref=f40e619]:
+                    - link "Browse the live website" [ref=f40e620] [cursor=pointer]:
+                      - /url: https://doomoorboomoor.github.io/AI-Desktop-guides/
+                  - text: to search all seven manuals and read the guides without installing anything.
+                - table [ref=f40e622]:
+                  - rowgroup [ref=f40e623]:
+                    - row [ref=f40e624]:
+                      - columnheader "Guide" [ref=f40e625]
+                      - columnheader "Main topics" [ref=f40e626]
+                  - rowgroup [ref=f40e627]:
+                    - row [ref=f40e628]:
+                      - cell [ref=f40e629]:
+                        - link "Claude Desktop" [ref=f40e630] [cursor=pointer]:
+                          - /url: https://doomoorboomoor.github.io/AI-Desktop-guides/claude-desktop.html
+                      - cell "Projects, Cowork, and explicit context" [ref=f40e631]
+                    - row [ref=f40e632]:
+                      - cell [ref=f40e633]:
+                        - link "Claude Code" [ref=f40e634] [cursor=pointer]:
+                          - /url: https://doomoorboomoor.github.io/AI-Desktop-guides/claude-code.html
+                      - cell "CLAUDE.md, imports, and scoped rules" [ref=f40e635]
+                    - row [ref=f40e636]:
+                      - cell [ref=f40e637]:
+                        - link "ChatGPT Desktop" [ref=f40e638] [cursor=pointer]:
+                          - /url: https://doomoorboomoor.github.io/AI-Desktop-guides/chatgpt-desktop.html
+                      - cell "Chat, Projects, Work, and connected sources" [ref=f40e639]
+                    - row [ref=f40e640]:
+                      - cell [ref=f40e641]:
+                        - link "Codex Desktop" [ref=f40e642] [cursor=pointer]:
+                          - /url: https://doomoorboomoor.github.io/AI-Desktop-guides/codex-desktop.html
+                      - cell "AGENTS.md, skills, and checkouts" [ref=f40e643]
+                    - row [ref=f40e644]:
+                      - cell [ref=f40e645]:
+                        - link "Gemini Desktop" [ref=f40e646] [cursor=pointer]:
+                          - /url: https://doomoorboomoor.github.io/AI-Desktop-guides/gemini-desktop.html
+                      - cell "Supplied sources and context" [ref=f40e647]
+                    - row [ref=f40e648]:
+                      - cell [ref=f40e649]:
+                        - link "Hermes Desktop" [ref=f40e650] [cursor=pointer]:
+                          - /url: https://doomoorboomoor.github.io/AI-Desktop-guides/hermes-desktop.html
+                      - cell "Native rules and progressive context" [ref=f40e651]
+                    - row [ref=f40e652]:
+                      - cell [ref=f40e653]:
+                        - link "OpenClaw" [ref=f40e654] [cursor=pointer]:
+                          - /url: https://doomoorboomoor.github.io/AI-Desktop-guides/openclaw.html
+                      - cell "Workspaces, agents, and Gateway boundaries" [ref=f40e655]
+                - paragraph [ref=f40e656]: The library includes searchable sections, complete code examples, Mermaid diagram previews, Markdown source downloads, mobile navigation, dark mode, and printable guides. Standalone HTML exports support offline reading; the website shares cached assets between pages. Template ZIPs are linked from the website; individual Drive packs may require access permission.
+                - generic [ref=f40e657]:
+                  - heading "Publish on GitHub Pages" [level=2] [ref=f40e658]
+                  - 'link "Permalink: Publish on GitHub Pages" [ref=f40e659] [cursor=pointer]':
+                    - /url: "#publish-on-github-pages"
+                - paragraph [ref=f40e662]:
+                  - text: For crawler metadata, sitemap submission, and Google Search Console verification, see
+                  - link "Search engine setup" [ref=f40e663] [cursor=pointer]:
+                    - /url: /doomoorboomoor/AI-Desktop-guides/blob/main/SEARCH-ENGINE-SETUP.md
+                  - text: . SEO settings live in
+                  - code [ref=f40e664]: Authoring/site.json
+                  - text: ; indexing is separate from publishing.
+                - paragraph [ref=f40e665]:
+                  - text: Run
+                  - code [ref=f40e666]: python Build-Pages.py
+                  - text: from this folder. It rebuilds the seven manuals from canonical Markdown, validates local links and every search destination, and writes the website to
+                  - code [ref=f40e667]: _site/
+                  - text: . Python 3.9+ is required; dependencies are bundled. No npm installation is needed.
+                - paragraph [ref=f40e668]:
+                  - text: Preview with
+                  - code [ref=f40e669]: python -m http.server 8000 --directory _site
+                  - text: ", then open"
+                  - link "http://localhost:8000" [ref=f40e670] [cursor=pointer]:
+                    - /url: http://localhost:8000
+                  - text: . Stop the preview with Ctrl+C.
+                - paragraph [ref=f40e671]:
+                  - text: Commit and push the source changes to
+                  - code [ref=f40e672]: main
+                  - text: . In the GitHub repository, open
+                  - strong [ref=f40e673]: Settings → Pages → Build and deployment → Source → GitHub Actions
+                  - text: . The included
+                  - code [ref=f40e674]: .github/workflows/pages.yml
+                  - text: builds and validates pull requests; pushes to
+                  - code [ref=f40e675]: main
+                  - text: also publish the validated
+                  - code [ref=f40e676]: _site
+                  - text: artifact. The expected URL is
+                  - link "https://doomoorboomoor.github.io/AI-Desktop-guides/" [ref=f40e677] [cursor=pointer]:
+                    - /url: https://doomoorboomoor.github.io/AI-Desktop-guides/
+                  - text: once deployment succeeds. You can also run the workflow manually from the Actions tab.
+                - paragraph [ref=f40e678]: "The publishing layout is:"
+                - generic [ref=f40e679]:
+                  - code [ref=f40e681]: "#Source/ Canonical guide Markdown and historical inputs Authoring/ Metadata, diagram previews, and bundled build engine Build-Library.py Standalone offline HTML build Build-Pages.py Optimized website build and link validation .github/workflows/ GitHub Pages build and deployment _site/ Generated website only (ignored by Git) index.html Library navigation and full-text search <app-slug>.html Seven complete manuals with lowercase URLs assets/ Shared, content-hashed CSS and JavaScript 404.html Missing-page recovery"
+                  - button "Copy code to clipboard" [ref=f40e683] [cursor=pointer]
+                - paragraph [ref=f40e687]:
+                  - text: Only generated pages and their shared assets are published. Scratch folders, archives, authoring projects, and original uploads are excluded from the deployment artifact. Guide text, source downloads, diagrams, template download links, and the existing mobile and print layouts are retained. The published pages share cacheable assets; the root HTML exports remain self-contained. Keep the entire
+                  - code [ref=f40e688]: _site
+                  - text: folder together when copying the website.
+                - paragraph [ref=f40e689]:
+                  - text: Links are relative, so navigation and assets work beneath the repository's GitHub Pages path. The 404 recovery URL and repository link in Build-Pages.py are specific to this repository; update them if you fork it. Historical
+                  - code [ref=f40e690]: claude-code-Desktop.html
+                  - text: links redirect with their section fragments. Use the canonical lowercase
+                  - code [ref=f40e691]: chatgpt-desktop.html
+                  - text: when sharing links.
+                - paragraph [ref=f40e692]:
+                  - text: The validation report is saved to
+                  - code [ref=f40e693]: "#Temp/pages-validation.json"
+                  - text: . Publishing does not update the separate Google Drive ZIPs. For workflow details, see
+                  - link "GitHub's custom Pages workflow documentation" [ref=f40e694] [cursor=pointer]:
+                    - /url: https://docs.github.com/en/pages/getting-started-with-github-pages/using-custom-workflows-with-github-pages
+                  - text: .
+                - paragraph [ref=f40e695]: "Seven complete manuals: Claude Desktop, Claude Code, ChatGPT Desktop, Codex Desktop, Gemini Desktop, Hermes Desktop, and OpenClaw."
+                - paragraph [ref=f40e696]:
+                  - text: Open
+                  - code [ref=f40e697]: index.html
+                  - text: to browse the guides, search all seven, get the shared Google Drive template ZIP, or read New+ usage instructions. Keep the eight HTML files together. All reading assets are embedded; external links need internet.
+                - generic [ref=f40e698]:
+                  - heading "Authoring authority" [level=2] [ref=f40e699]
+                  - 'link "Permalink: Authoring authority" [ref=f40e700] [cursor=pointer]':
+                    - /url: "#authoring-authority"
+                - paragraph [ref=f40e703]:
+                  - text: Root
+                  - code [ref=f40e704]: PROJECT.md
+                  - text: defines this documentation project's policy. The seven numbered Markdown guides under
+                  - code [ref=f40e705]: "#Source/"
+                  - text: are the canonical guide text. Other comparison files under
+                  - code [ref=f40e706]: "#Source/"
+                  - text: are historical research inputs, not verified product specifications and not automatically published.
+                - paragraph [ref=f40e707]:
+                  - text: Edit guide text in
+                  - code [ref=f40e708]: "#Source/"
+                  - text: ; edit display metadata under
+                  - code [ref=f40e709]: Authoring/config/
+                  - text: . Run
+                  - code [ref=f40e710]: Build-Library.cmd
+                  - text: or
+                  - code [ref=f40e711]: ./Build-Library.ps1
+                  - text: to rebuild every guide and the master index. On macOS/Linux run
+                  - code [ref=f40e712]: python3 Build-Library.py
+                  - text: . Python 3.9+ is required only for rebuilding. Dependencies are bundled with licenses. No package installation, account connection, or server is required.
+                - paragraph [ref=f40e713]:
+                  - text: Both the sidebar and the in-body Contents list regenerate from actual headings. HTML is derived output and will be replaced by a rebuild. Archive prior outputs in
+                  - code [ref=f40e714]: "#Old/"
+                  - text: if needed.
+                  - code [ref=f40e715]: "#Temp/"
+                  - text: is for temporary builds; the builder reads explicit canonical paths, not scratch or archive folders.
+                - paragraph [ref=f40e716]:
+                  - text: Diagram SVG previews are checked against source and image hashes. When changing Mermaid source, update its matching SVG and intentionally refresh the manifest under
+                  - code [ref=f40e717]: Authoring/diagrams/<app>/
+                  - text: . A stale preview is omitted; the edited Mermaid code is still shown. The builder does not execute Mermaid.
+                - generic [ref=f40e718]:
+                  - heading "Template workflow" [level=2] [ref=f40e719]
+                  - 'link "Permalink: Template workflow" [ref=f40e720] [cursor=pointer]':
+                    - /url: "#template-workflow"
+                - paragraph [ref=f40e723]:
+                  - text: Use the Google Drive link on the master page for the full New+ ZIP. Extract it completely and read the package README before running its installer. The installer skips existing same-named templates by default;
+                  - code [ref=f40e724]: "-Overwrite"
+                  - text: backs up matching entries before replacement. The installer does not enable New+ or change PowerToys settings. To install only selected entries, open New+ > Open templates and copy the desired contents of
+                  - code [ref=f40e725]: NewPlus-Templates/
+                  - text: .
+                - paragraph [ref=f40e726]:
+                  - text: After creating a copy with New+, edit that copy. Each editable single-guide project has its own
+                  - code [ref=f40e727]: content/guide.md
+                  - text: SSOT and
+                  - code [ref=f40e728]: Build-Guide.cmd
+                  - text: . It is independent of this collection's canonical sources. To update this collection, reconcile approved Markdown into
+                  - code [ref=f40e729]: "#Source/"
+                  - text: ", then rebuild here."
+                - paragraph [ref=f40e730]: Existing product-verification dates are retained; newly authored Codex and Claude Code guides cite official documentation reviewed on 31 October 2026. HTML validation is not proof of installation or native-account entitlements.
+                - generic [ref=f40e731]:
+                  - heading "Separate app downloads" [level=2] [ref=f40e732]
+                  - 'link "Permalink: Separate app downloads" [ref=f40e733] [cursor=pointer]':
+                    - /url: "#separate-app-downloads"
+                - paragraph [ref=f40e736]:
+                  - text: Each app card and guide footer links to its own three-entry ZIP. The combined collection remains available.
+                  - code [ref=f40e737]: Authoring/distribution.json
+                  - text: stores the seven app URLs and the combined URL;
+                  - code [ref=f40e738]: Build-Library.cmd
+                  - text: preserves this mapping. See
+                  - code [ref=f40e739]: DOWNLOADS.md
+                  - text: .
+        - generic [ref=f40e742]:
+          - generic [ref=f40e743]:
+            - heading "About" [level=2] [ref=f40e744]
+            - paragraph [ref=f40e745]: "Reference guides for Claude Desktop, Claude Code, ChatGPT, Codex, Gemini, Hermes, and OpenClaw: Markdown, project instructions, context management, and PowerToys New+ templates."
+            - generic "https://doomoorboomoor.github.io/AI-Desktop-guides/" [ref=f40e749]:
+              - link "doomoorboomoor.github.io/AI-Desktop-guides/" [ref=f40e750] [cursor=pointer]:
+                - /url: https://doomoorboomoor.github.io/AI-Desktop-guides/
+            - heading "Topics" [level=3] [ref=f40e751]
+            - generic [ref=f40e752]:
+              - link "ai" [ref=f40e753] [cursor=pointer]:
+                - /url: /topics/ai
+              - link "chatgpt" [ref=f40e754] [cursor=pointer]:
+                - /url: /topics/chatgpt
+              - link "claude-code" [ref=f40e755] [cursor=pointer]:
+                - /url: /topics/claude-code
+              - link "claude-desktop" [ref=f40e756] [cursor=pointer]:
+                - /url: /topics/claude-desktop
+              - link "codex" [ref=f40e757] [cursor=pointer]:
+                - /url: /topics/codex
+              - link "documentation" [ref=f40e758] [cursor=pointer]:
+                - /url: /topics/documentation
+              - link "gemini" [ref=f40e759] [cursor=pointer]:
+                - /url: /topics/gemini
+              - link "github-pages" [ref=f40e760] [cursor=pointer]:
+                - /url: /topics/github-pages
+              - link "markdown" [ref=f40e761] [cursor=pointer]:
+                - /url: /topics/markdown
+              - link "powertoys" [ref=f40e762] [cursor=pointer]:
+                - /url: /topics/powertoys
+            - heading "Resources" [level=3] [ref=f40e763]
+            - link "Readme" [ref=f40e765] [cursor=pointer]:
+              - /url: "#readme-ov-file"
+            - generic [ref=f40e768]:
+              - link "Activity" [ref=f40e771] [cursor=pointer]:
+                - /url: /doomoorboomoor/AI-Desktop-guides/activity
+              - generic [ref=f40e774]:
+                - heading "Stars" [level=3] [ref=f40e775]
+                - generic [ref=f40e777]:
+                  - strong [ref=f40e780]: "0"
+                  - text: stars
+                - heading "Watchers" [level=3] [ref=f40e781]
+                - generic [ref=f40e783]:
+                  - strong [ref=f40e786]: "0"
+                  - text: watching
+                - heading "Forks" [level=3] [ref=f40e787]
+                - link [ref=f40e789] [cursor=pointer]:
+                  - /url: /doomoorboomoor/AI-Desktop-guides/forks
+                  - strong [ref=f40e793]: "0"
+                  - text: forks
+            - link "Report repository" [ref=f40e795] [cursor=pointer]:
+              - /url: /contact/report-content?content_url=https%3A%2F%2Fgithub.com%2Fdoomoorboomoor%2FAI-Desktop-guides&report=doomoorboomoor+%28user%29
+          - heading "Releases" [level=2] [ref=f40e797]
+          - heading "Packages" [level=2] [ref=f40e801]
+          - heading "Contributors" [level=2] [ref=f40e804]
+          - heading "Languages" [level=2] [ref=f40e807]
+  - contentinfo [ref=f40e810]:
+    - heading "Footer" [level=2] [ref=f40e811]
+    - generic [ref=f40e812]:
+      - generic [ref=f40e813]:
+        - link "GitHub Homepage" [ref=f40e814] [cursor=pointer]:
+          - /url: https://github.com
+        - generic [ref=f40e817]: © 2026 GitHub, Inc.
+      - navigation "Footer" [ref=f40e818]:
+        - heading "Footer navigation" [level=3] [ref=f40e819]
+        - list "Footer navigation" [ref=f40e820]:
+          - listitem [ref=f40e821]:
+            - link "Terms" [ref=f40e822] [cursor=pointer]:
+              - /url: https://docs.github.com/site-policy/github-terms/github-terms-of-service
+          - listitem [ref=f40e823]:
+            - link "Privacy" [ref=f40e824] [cursor=pointer]:
+              - /url: https://docs.github.com/site-policy/privacy-policies/github-privacy-statement
+          - listitem [ref=f40e825]:
+            - link "Security" [ref=f40e826] [cursor=pointer]:
+              - /url: https://github.com/security
+          - listitem [ref=f40e827]:
+            - link "Status" [ref=f40e828] [cursor=pointer]:
+              - /url: https://www.githubstatus.com/
+          - listitem [ref=f40e829]:
+            - link "Community" [ref=f40e830] [cursor=pointer]:
+              - /url: https://github.community/
+          - listitem [ref=f40e831]:
+            - link "Docs" [ref=f40e832] [cursor=pointer]:
+              - /url: https://docs.github.com/
+          - listitem [ref=f40e833]:
+            - link "Contact" [ref=f40e834] [cursor=pointer]:
+              - /url: https://support.github.com?tags=dotcom-footer
+          - listitem [ref=f40e835]:
+            - button "Manage cookies" [ref=f40e837] [cursor=pointer]
+          - listitem [ref=f40e838]:
+            - button "Do not share my personal information" [ref=f40e840] [cursor=pointer]
