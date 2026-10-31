@@ -1,4 +1,28 @@
-# Complete AI Desktop Reference Library — v3
+# AI Desktop Guides — Reference Library
+
+Complete reference guides for **Claude Desktop, Claude Code, ChatGPT Desktop,
+Codex Desktop, Gemini Desktop, Hermes Desktop, and OpenClaw**. Learn AI project
+instructions, Markdown formatting, context management, skills, and reusable
+PowerToys New+ templates.
+
+**[Browse the live website](https://doomoorboomoor.github.io/AI-Desktop-guides/)**
+to search all seven manuals and read the guides without installing anything.
+
+| Guide | Main topics |
+| --- | --- |
+| [Claude Desktop](https://doomoorboomoor.github.io/AI-Desktop-guides/claude-desktop.html) | Projects, Cowork, and explicit context |
+| [Claude Code](https://doomoorboomoor.github.io/AI-Desktop-guides/claude-code.html) | CLAUDE.md, imports, and scoped rules |
+| [ChatGPT Desktop](https://doomoorboomoor.github.io/AI-Desktop-guides/chatgpt-desktop.html) | Chat, Projects, Work, and connected sources |
+| [Codex Desktop](https://doomoorboomoor.github.io/AI-Desktop-guides/codex-desktop.html) | AGENTS.md, skills, and checkouts |
+| [Gemini Desktop](https://doomoorboomoor.github.io/AI-Desktop-guides/gemini-desktop.html) | Supplied sources and context |
+| [Hermes Desktop](https://doomoorboomoor.github.io/AI-Desktop-guides/hermes-desktop.html) | Native rules and progressive context |
+| [OpenClaw](https://doomoorboomoor.github.io/AI-Desktop-guides/openclaw.html) | Workspaces, agents, and Gateway boundaries |
+
+The library includes searchable sections, complete code examples, Mermaid
+diagram previews, Markdown source downloads, mobile navigation, dark mode,
+and printable guides. Standalone HTML exports support offline reading;
+the website shares cached assets between pages. Template ZIPs are linked from
+the website; individual Drive packs may require access permission.
 
 ## Publish on GitHub Pages
 
