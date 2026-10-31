@@ -44,6 +44,7 @@ def asset(text, suffix):
 
 
 def optimize(text):
+    text = text.replace('</head>', '<link rel="icon" type="image/svg+xml" href="favicon.svg"></head>', 1)
     text = re.sub(r'<style>(.*?)</style>', lambda m: '<link rel="stylesheet" href="' + asset(m[1], '.css') + '">', text, flags=re.S)
     # Only executable scripts are extracted; embedded source and search JSON stay intact.
     text = re.sub(r'<script>(.*?)</script>', lambda m: '<script defer src="' + asset(m[1], '.js') + '"></script>', text, flags=re.S)
@@ -98,6 +99,7 @@ def main():
     before = sum((ROOT / name).stat().st_size for name in names)
     for name in names:
         write(name, optimize((ROOT / name).read_text('utf-8')))
+    write('favicon.svg', '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"><rect width="64" height="64" rx="12" fill="#245bc6"/><path d="M15 17h15c5 0 8 2 8 5v26c-3-3-6-4-11-4H15zm34 0H38v31c3-3 6-4 11-4z" fill="white"/></svg>')
     # Retain old URLs, including their section fragments, after filename normalization.
     for old, new in {'claude-code-Desktop.html': 'claude-code.html'}.items():
         redirect = 'location.replace(' + json.dumps(new) + '+location.search+location.hash);'
